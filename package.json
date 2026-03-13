@@ -1,0 +1,17 @@
+{
+  "name": "landing-page-ulang-tahun",
+  "version": "1.0.0",
+  "description": "Landing page ulang tahun dengan foto dan musik",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html",
+    "dev": "start index.html",
+    "build": "echo Build completed - Static HTML ready"
+  },
+  "keywords": [
+    "birthday",
+    "landing-page"
+  ],
+  "author": "",
+  "license": "ISC"
+}
