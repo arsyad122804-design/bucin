@@ -6,7 +6,7 @@
   "scripts": {
     "start": "start index.html",
     "dev": "start index.html",
-    "build": "echo Build completed - Static HTML ready"
+    "build": "echo 'Static site ready'"
   },
   "keywords": [
     "birthday",
