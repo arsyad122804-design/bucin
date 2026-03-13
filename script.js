@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
             envelopeWrapper1.style.display = 'none';
             letter1.classList.add('show');
             letterOverlay.classList.add('show');
+            document.body.classList.add('letter-open');
         }, 800);
     });
 
@@ -102,6 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     closeLetter1.addEventListener('click', function() {
         letter1.classList.remove('show');
         letterOverlay.classList.remove('show');
+        document.body.classList.remove('letter-open');
         
         setTimeout(function() {
             envelopeWrapper1.style.display = 'block';
@@ -126,6 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
             envelopeWrapper2.style.display = 'none';
             letter2.classList.add('show');
             letterOverlay.classList.add('show');
+            document.body.classList.add('letter-open');
         }, 800);
     });
 
@@ -133,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     closeLetter2.addEventListener('click', function() {
         letter2.classList.remove('show');
         letterOverlay.classList.remove('show');
+        document.body.classList.remove('letter-open');
         
         setTimeout(function() {
             envelopeWrapper2.style.display = 'block';
