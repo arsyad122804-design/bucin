@@ -359,6 +359,40 @@ body {
     .letter-signature {
         font-size: 1.2rem !important;
     }
+    
+    .envelope {
+        width: 150px;
+        height: 100px;
+        transform: scale(0.5);
+    }
+    
+    .envelope-flap {
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+        border-top: 50px solid #ff6b9d;
+    }
+    
+    .envelope-body p {
+        font-size: 0.8rem;
+    }
+    
+    .heart {
+        font-size: 1.5rem;
+    }
+    
+    .envelopes-container {
+        gap: 10px;
+        flex-direction: row;
+    }
+    
+    .envelope-item {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .envelope-label {
+        font-size: 0.9rem;
+    }
 }
 
 .splash-screen {
